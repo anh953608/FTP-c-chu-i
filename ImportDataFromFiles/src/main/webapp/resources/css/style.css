@@ -1,0 +1,233 @@
+body {
+	font-size: 15px;
+    line-height: 1.52;
+    color: #717f86;
+    font-size: 16px;
+	font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+}
+.square{
+    border-radius: 0px;
+}
+h1, h2, h3, h4, h5, h6{
+    font-family: Open Sans, sans-serif;
+    font-weight: 700;
+    color: #4B4B4C;
+}
+a{
+    color: #5fcf80;
+}
+a:hover, a:focus{
+    color: #5fcf80;
+}
+/***********************************
+Navigation bar
+************************************/
+.navbar-default .navbar-brand {
+    color: #5FCF80;
+}
+.navbar-default {
+    background-color: #ffffff;
+}
+.course-text{
+    padding: 84px;
+}
+.navbar-default .navbar-nav > li > a {
+    color: #717f86;
+    font-size: 14px;
+    font-weight: 700;
+    border-radius: 100%;
+}
+.navbar-nav > li > a{
+	padding: 0px;
+	margin: 10px 5px;
+	padding: 10px 15px;
+}
+.navbar-default .navbar-nav > li > a:focus, .navbar-default .navbar-nav > li > a:hover
+{
+	color: #5FCF80;
+}
+
+.navbar-nav .active a{
+    background: none !important;
+    color: #5FCF80 !important;
+    outline: none;
+}
+.navbar-default .navbar-brand {
+    font-family: 'Dosis', sans-serif !important;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding: 0px;
+    height: inherit;
+    font-size: 36px;
+    margin: 20px 0px;
+}
+.navbar-default .navbar-brand span{
+	font-weight: 100 !important;
+}
+.navbar {
+    margin-bottom: 0px;
+}
+/***********************************
+Banner
+************************************/
+.banner{
+	background: url('../img/course05.jpg') no-repeat center top;
+    background-size: cover;
+	min-height: 665px;
+    position: relative;
+}
+.bg-color{
+	background-color: RGBA(12, 11, 11, 0.82);
+	min-height: 665px;
+}
+.text-dec{
+	font-size: 24px;
+	padding: 10px 20px;
+    margin: 15px 0;
+	text-transform: uppercase;
+    color: #fff;
+}
+.text-border{
+	border: 5px solid #5FCF80;
+	display: inline-block;
+	margin-top: 79px;
+}
+. square{
+    border-radius: 0px;
+}
+.intro-para{
+    border: 1px solid;
+	font-family: 'Alegreya Sans', sans-serif;
+	font-size: 27px;
+	color: #fff;
+	margin-top: 30px;
+}
+.quote .btn{
+    background-color: darkred;
+}
+.login-box-body {
+    padding: 15px 18px;
+}
+.login-box-msg {
+    margin: 0px;
+    text-align: center;
+    padding: 0px 20px 20px;
+}
+.quote .btn{
+    background-color: #5fcf80;
+    color: #fff;
+    -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  margin-top: 10px;
+}
+.quote .btn:hover, .quote .btn:focus{
+    background-color: #fff;
+    color: #5fcf80;
+    border-color: #fff;
+     -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+@media (min-width: 20px) and (max-width: 450px) {
+    .text-dec {
+       font-size: 20px;
+    }
+    .login-box-body {
+    padding: 15px 20px;
+    }
+    .navbar-default .navbar-brand{
+        margin-left: 10px;
+    }
+    .navbar-default .navbar-nav > li > a{
+        text-align: center;
+    }
+}
+.div-uploadfile{
+    position: relative;
+    border: 1px solid #ddd;
+    box-sizing: border-box;
+    border-radius: 2px;
+    background: #fff;
+    padding: 15px;
+    height: auto !important;
+    margin-bottom: 30px;
+    line-height: normal;
+}
+.btnUpload{
+    width: 100px;
+    height:50px;
+    background: #5fcf80;
+    color: white;
+}
+.btn-default:Hover{
+    background: #38b35c;
+    color: white;
+}
+.btn-default:Focus{
+    background: #5FCF80;
+    color: white;
+    border-radius: 0px;
+}
+.btn-clearAll{
+    text-decoration: underline!important;
+    font-size: 13px!important;
+    color: inherit!important;
+    border: none!important;
+    background: 0 0!important;
+    display: inline-block;
+    margin-right: .1em;
+    overflow: visible;
+    padding: 0;
+    position: relative;
+    text-align: center;
+    cursor: default!important;
+}
+#ul-infor-file{
+    margin: 0;
+    padding: 0;
+}
+#ul-infor-file li{
+    cursor: pointer;
+    position: relative;
+    padding: 12px 8px 12px 40px;
+    list-style-type: none;
+    background: #5fcf80;
+    font-size: 14px;
+    transition: 0.2s;
+    color: white;
+    /* make the list items unselectable */
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+#ul-infor-file li:nth-child(odd) {
+    background: #afb7af;
+    color: white;
+}
+#ul-infor-file li:nth-child(odd):Hover {
+    background: #707970;
+    color: white;
+}
+
+/* Darker background-color on hover */
+#ul-infor-file li:hover {
+    background: #8ddaa4;
+}
+#ul-infor-file li:hover {
+    background: #33b95b;
+}
+.close {
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding: 12px 16px 12px 16px;
+    font-size: 19px;
+}
+.close:hover {
+    background-color: #f44336;
+    color: white;
+}
